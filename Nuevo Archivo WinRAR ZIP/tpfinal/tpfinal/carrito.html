@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Pagina de materias </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="carrito.css">
+  <script src="cart.js" defer></script>
+  <script src="carrito.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+
+<body>
+  <div class="menu-container">
+    <ul class="menu">
+      <a href="index.html" class="active">
+        <img src="assets/casita.jpg" alt="Home" class="icono">
+      </a>
+      <li><a href="nosotros.html">Sobre Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="iconos-derecha">
+      <a href="carrito.html" class="icono-carrito">🛒</a>
+    </div>
+  </div>
+
+  <section class="carrito">
+    <h2>Carrito</h2>
+    <div class="carrito-grid">
+    </div>
+
+    <button class="boton-continuar" onClick="continuarCompra()">Continuar compra</button>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Tienda Electrónica | Todos los derechos reservados</p>
+  </footer>
+
+  <div class="modal">
+    <form class="modal-content" onsubmit="finalizarCompra(event)">
+      <button class="close" onclick="closeModal()">&times;</button>
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="direccion" placeholder="Dirección" required>
+      <input type="text" id="ciudad" placeholder="Ciudad" required>
+      <input type="phone" id="telefono" placeholder="Teléfono" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit" class="comprar">Comprar</button>
+    </form>
+  </div>
+</body>
+
+</html>

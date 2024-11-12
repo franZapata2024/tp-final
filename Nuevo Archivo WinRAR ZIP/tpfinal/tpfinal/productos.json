@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "titulo": "Plaqueta Arduino Uno R3",
+    "precio": 10.99,
+    "imagen": "assets/arduino.jpg",
+    "descripcion": "Microcontrolador ideal para proyectos de iniciación en electrónica y programación."
+  },
+  {
+    "id": 2,
+    "titulo": "Sensor de Ultrasonido HC-SR04",
+    "precio": 2.99,
+    "imagen": "assets/hcsr04.jpg",
+    "descripcion": "Sensor de distancia por ultrasonido para mediciones precisas."
+  },
+  {
+    "id": 3,
+    "titulo": "Módulo WiFi ESP8266",
+    "precio": 5.49,
+    "imagen": "assets/modulowifi.jpg",
+    "descripcion": "Módulo de comunicación WiFi compatible con proyectos IoT."
+  },
+  {
+    "id": 4,
+    "titulo": "Kit de Inicio Arduino",
+    "precio": 25.00,
+    "imagen": "assets/kitbasico.jpg",
+    "descripcion": "Kit completo para comenzar con proyectos de Arduino, ideal para principiantes."
+  },
+  {
+    "id": 5,
+    "titulo": "Módulo Bluetooth HC-05",
+    "precio": 3.75,
+    "imagen": "assets/modulobluetooth.jpg",
+    "descripcion": "Módulo Bluetooth para comunicación inalámbrica en proyectos de microcontroladores."
+  },
+  {
+    "id": 6,
+    "titulo": "Motor Paso a Paso 28BYJ-48",
+    "precio": 4.25,
+    "imagen": "assets/pasoapaso.jpg",
+    "descripcion": "Motor paso a paso para proyectos de robótica y control de movimiento."
+  },
+  {
+    "id": 7,
+    "titulo": "Módulo Sensor de Temperatura y Humedad DHT11",
+    "precio": 1.50,
+    "imagen": "assets/sensorhumedad.jpg",
+    "descripcion": "Sensor de temperatura y humedad para proyectos de monitoreo ambiental."
+  }
+]
